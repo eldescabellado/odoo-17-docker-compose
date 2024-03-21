@@ -1,8 +1,8 @@
-# Installing Odoo 17.0 with one command (Supports multiple Odoo instances on one server).
+# Instalación de Odoo 17.0 con un comando (admite múltiples instancias de Odoo en un servidor)
 
-## Quick Installation
+## Instalación rápida
 
-Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) yourself, then run the following to set up first Odoo instance @ `localhost:10017` (default master password: `minhng.info`):
+Instaar  [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) luego ejecute lo siguiente para configurar la primera instancia de Odoo @ `localhost:10017` (contraseña maestra predeterminada: `minhng.info`):
 
 ``` bash
 curl -s https://raw.githubusercontent.com/minhng92/odoo-17-docker-compose/master/run.sh | sudo bash -s odoo-one 10017 20017
